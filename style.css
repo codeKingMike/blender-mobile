@@ -251,6 +251,12 @@ footer p {
     #jonDev h3 {
         font-size: 1.3rem;
     }
+    #blenderNews {
+        min-height: 250px;
+        padding: 50px 40px 30px 40px;
+        background-color: #EFEFEF;
+        width: 100%;
+    }
 
   }
 
