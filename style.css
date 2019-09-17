@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#mainImg {
+    background: url('https://www.blender.org/wp-content/uploads/2019/07/blender_made_by_you_header.jpg?x77827');
+    min-height: 450px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+h3.blenderTitle {
+    color: blueviolet;
+    font-size: 3.5rem;
+    font-weight: 400;
+    position: absolute;
+    background-color: #000;
+    top:30%;
+    left: 280px;
+    padding: 15px 15px;
+}
+#downloadLink {
+    padding: 0 60px;
+    min-height: 100px;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
+}
+
+#downloadLink a.textLink {
+    padding-top: 30px;
+    text-align: center;
+}
+
+a.donateLink {
+    background-color: hls(hsl(198,97%,53%));
+    font-size: 20px;
+}
+
+.newsTitle {
+    font-size: 18px;
+}
+/* ABOUT AREA STYLING */
+#about {
+    padding: 2rem;
+}
+#aboutArea {
+    margin: 50px;
+    min-height: 450px;
+    background-color: #F8F8F8; 
+}
+#aboutArea .card-deck {
+    min-height: 450px;
+}
+section {
+    background-color: #F8F8F8; 
+}
+.card a {
+    text-align: end;
+    font-size: 10px;
+}
+.card-deck {
+    margin: auto;
+}
+hr {
+    width: 80px;
+}
+/* NEWS AND DEV BLOGS STYLING */
+#news {
+    margin-top: 90px;
+}
+#blenderNews {
+    min-height: 250px;
+    padding: 50px 140px 30px 140px;
+    background-color: #EFEFEF;
+    width: 100%;
+}
+#blenderNews .card {
+    display: flex;
+    flex-direction: column;
+}
+#devBlogs {
+    padding: 50px 140px 80px 140px;
+    background-color: #EFEFEF;
+}
+/* EVERYTHING YOU NEED STYLING */
+#everythingYouNeed {
+    background-image: url(https://www.blender.org/wp-content/themes/bthree/assets/images/backgrounds/background-manuel_grad-scificity.jpg);
+    min-height: 1300px;
+    width: 100%;
+}
+#everythingYouNeed h2 {
+    font-size: 80px;
+    font-weight: 300;
+}
+.moveDown {
+    margin-top: 70px;
+}
+.moveDownImg {
+    margin-top: 170px;
+}
+.everythingText a:hover {
+    color: white;
+}
+.rowOne {
+    
+}
+/* JOIN DEV AREA */
+#jonDev {
+    background-image: url('https://www.blender.org/wp-content/themes/bthree/assets/images/backgrounds/background-polygon-lightblue.jpg?x77827');
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#jonDev h3 {
+    padding-top: 220px;
+    font-size: 62px;
+    font-weight: 400;
+}
+#jonDev p {
+    font-size: 34px;
+    font-weight: 200;
+}
+#jonDev .btn {
+    display: inline-block;
+}
+/* SUB TO BLENDER AREA */
+#subToBlender {
+    background: rgba(105, 105, 105, 0.2);
+    background-image: url('https://www.blender.org/wp-content/themes/bthree/assets/images/backgrounds/background-andy-waking.jpg?x77827');
+    min-height: 1300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 2.8em;
+}
+#subToBlender p {
+    font-size: 36px;
+    font-weight: 300;
+}
+#subToBlender ul {
+    font-size: 36px;
+    font-weight: 300;
+}
+.subToBlender {
+    padding: 20px 50px;
+}
+/* MADE BY YOU SECTION */
+#madeByYou {
+    min-height: 120px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+#madeByYou a {
+    color: rgba(105, 105, 105, 0.8);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#madeByYou button {
+    padding: 8px 80px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+/* FOOTER AREA */
+footer {
+    background-color: #DFDFDF;
+}
+footer ul {
+    list-style: none;
+}
+footer a {
+    color:  dimgrey;
+}
+footer  li{
+    color: rgba(105, 105, 105, 0.5);
+}
+footer a:hover {
+    color: dimgrey;
+}
+footer p {
+    text-align: center;
+    margin-top: 80px;
+    color: rgba(105, 105, 105, 0.5);
+}
+
+.sectionVid {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.sectionVid h2 {
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sectionVid a {
+    z-index: 1;
+}
+.sectionVid a:hover {
+    background: rgba(255, 255, 255, 0.7);
+}
+.video-container {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+  @media only screen and (max-width: 700px) {
+    body {
+      color: #333;
+    }
+    
+    .blenderTitle {
+        font-size: 16px;
+    }
+    #downloadLink a.btn {
+        display: ;
+        height: 100%;
+        width: 100%;
+    }
+    #blenderNews .card {
+        margin-bottom: 30px;
+        width: 100vw;
+    }
+
+    h3.blenderTitle {
+        color: blueviolet;
+        font-size: 2.2rem;
+        word-spacing: 2px;
+        font-weight: 400;
+        position: absolute;
+        background-color: #000;
+        top:30%;
+        left: 50px;
+        right: 20px;
+        padding: 15px 15px;
+    }
+    #jonDev h3 {
+        font-size: 1.3rem;
+    }
+
+  }
+
+  @media only screen and (min-width: 700px) {
+    body {
+        
+    }
+    h3.blenderTitle {
+        color: red;
+        font-size: 2.2rem;
+        word-spacing: 2px;
+        font-weight: 400;
+        position: absolute;
+        background-color: #000;
+        top:30%;
+        left: 50px;
+        right: 20px;
+        padding: 15px 15px;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    body {
+        
+    }
+    h3.blenderTitle {
+        color: orange;
+        font-size: 2.2rem;
+        word-spacing: 2px;
+        font-weight: 400;
+        position: absolute;
+        background-color: #000;
+        top:30%;
+        left: 50px;
+        right: 20px;
+        padding: 15px 15px;
+    }
+  }
