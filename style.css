@@ -70,20 +70,6 @@ hr {
 #news {
     margin-top: 90px;
 }
-#blenderNews {
-    min-height: 250px;
-    padding: 50px 140px 30px 140px;
-    background-color: #EFEFEF;
-    width: 100%;
-}
-#blenderNews .card {
-    display: flex;
-    flex-direction: column;
-}
-#devBlogs {
-    padding: 50px 140px 80px 140px;
-    background-color: #EFEFEF;
-}
 /* EVERYTHING YOU NEED STYLING */
 #everythingYouNeed {
     background-image: url(https://www.blender.org/wp-content/themes/bthree/assets/images/backgrounds/background-manuel_grad-scificity.jpg);
