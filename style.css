@@ -272,6 +272,30 @@ footer p {
         font-size: 2rem;
         text-align: start;
     }
+    #subToBlender {
+        padding: 10px 30px 10px 5px;
+    }
+    #subToBlender h3 {
+        font-size: 2.2rem;
+        font-weight: 300;
+        line-height: 3.8rem;
+    }
+
+    #subToBlender a {
+        color: #fff;
+    }
+    #subToBlender p  {
+        line-height: 1.9rem;
+        font-size: 1rem;
+    }
+    #subToBlender li  {
+        line-height: 1.9rem;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    #subToBlender button  {
+        padding: 2px 30px;
+    }
   }
 
   @media only screen and (min-width: 700px) {
