@@ -175,7 +175,7 @@ footer p {
     color: rgba(105, 105, 105, 0.5);
 }
 
-.sectionVid {
+/* .sectionVid {
     position: relative;
     height: 100vh;
     width: 100%;
@@ -190,20 +190,7 @@ footer p {
     margin: 15px;
     z-index: 1;
     font-family: 'Courier New', Courier, monospace;
-}
-.sectionVid a {
-    z-index: 1;
-}
-.sectionVid a:hover {
-    background: rgba(255, 255, 255, 0.7);
-}
-.video-container {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-}
+} */
   @media only screen and (max-width: 600px) {
     body {
       color: #333;
@@ -251,6 +238,23 @@ footer p {
     }
     #blenderNews .card a p {
         font-weight: bold;
+    }
+    #everythingYouNeed  {
+        line-height: 2.1em;
+        font-size: 1.1rem;
+        padding: 0 20px 0 0;
+    }
+    #everythingYouNeed h3 {
+        font-size: 2.1rem;
+    }
+    #everythingYouNeed p {
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    #everythingYouNeed ul {
+        padding-left: 50px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.9);
     }
   }
 
