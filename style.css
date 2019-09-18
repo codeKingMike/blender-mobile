@@ -115,6 +115,14 @@ hr {
 #jonDev .btn {
     display: inline-block;
 }
+#jonDev button {
+    display: block;
+    padding: 5px 50px;
+}
+#jonDev a {
+    display: block;
+    padding: 5px 50px;
+}
 /* SUB TO BLENDER AREA */
 #subToBlender {
     background: rgba(105, 105, 105, 0.2);
@@ -255,6 +263,10 @@ footer p {
         padding-left: 50px;
         font-weight: 300;
         color: rgba(255, 255, 255, 0.9);
+    }
+    #jonDev h3 {
+        font-size: 2rem;
+        text-align: start;
     }
   }
 
