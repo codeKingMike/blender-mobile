@@ -70,6 +70,9 @@ hr {
 #news {
     margin-top: 90px;
 }
+#blenderNews h3  {
+    padding-top: 4rem;
+}
 /* EVERYTHING YOU NEED STYLING */
 #everythingYouNeed {
     background-image: url(https://www.blender.org/wp-content/themes/bthree/assets/images/backgrounds/background-manuel_grad-scificity.jpg);
