@@ -183,6 +183,10 @@ footer p {
     color: rgba(105, 105, 105, 0.5);
 }
 
+footer ul li {
+    display: inline-block;
+}
+
 /* .sectionVid {
     position: relative;
     height: 100vh;
