@@ -66,6 +66,12 @@ section {
 hr {
     width: 80px;
 }
+hr.center {
+    margin: 0 auto;
+}
+/* hr.twenty, hr {
+    width: 80%;
+} */
 /* NEWS AND DEV BLOGS STYLING */
 #news {
     margin-top: 90px;
