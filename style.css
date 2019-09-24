@@ -69,9 +69,6 @@ hr {
 hr.center {
     margin: 0 auto;
 }
-/* hr.twenty, hr {
-    width: 80%;
-} */
 /* NEWS AND DEV BLOGS STYLING */
 #news {
     margin-top: 90px;
@@ -87,6 +84,14 @@ hr.center {
 }
 #everythingYouNeed h2 {
     font-size: 80px;
+    font-weight: 300;
+}
+#everythingYouNeed h3 {
+    font-size: 2rem;
+}
+#everythingYouNeed p,
+#everythingYouNeed ul li {
+    font-size: 1.5rem;
     font-weight: 300;
 }
 .moveDown {
