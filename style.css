@@ -302,7 +302,7 @@ footer p {
     body {
         
     }
-    h3.blenderTitle {
+    /* h3.blenderTitle {
         color: red;
         font-size: 2.2rem;
         word-spacing: 2px;
@@ -313,13 +313,13 @@ footer p {
         left: 50px;
         right: 20px;
         padding: 15px 15px;
-    }
+    } */
   }
   @media only screen and (min-width: 1200px) {
     body {
         
     }
-    h3.blenderTitle {
+    /* h3.blenderTitle {
         color: orange;
         font-size: 2.2rem;
         word-spacing: 2px;
@@ -330,5 +330,5 @@ footer p {
         left: 50px;
         right: 20px;
         padding: 15px 15px;
-    }
+    } */
   }
