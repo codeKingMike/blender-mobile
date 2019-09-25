@@ -12,6 +12,7 @@
 }
 h3.blenderTitle {
     color: blueviolet;
+    background: linear-gradient(to right, cyan, orange);
     font-size: 3.5rem;
     font-weight: 400;
     position: absolute;
