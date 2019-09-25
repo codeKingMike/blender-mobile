@@ -92,8 +92,8 @@ hr.center {
 }
 #everythingYouNeed p,
 #everythingYouNeed ul li {
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-size: 1.3rem;
+    font-weight: 200;
 }
 .moveDown {
     margin-top: 70px;
@@ -149,11 +149,11 @@ hr.center {
     line-height: 2.8em;
 }
 #subToBlender p {
-    font-size: 36px;
+    font-size: 1.1rem;
     font-weight: 300;
 }
 #subToBlender ul {
-    font-size: 36px;
+    font-size: 1.1rem;
     font-weight: 300;
 }
 .subToBlender {
@@ -214,6 +214,8 @@ footer p {
     z-index: 1;
     font-family: 'Courier New', Courier, monospace;
 } */
+
+/* MEDIA QUERYS */
   @media only screen and (max-width: 600px) {
     body {
       color: #333;
@@ -301,12 +303,12 @@ footer p {
     }
     #subToBlender p  {
         line-height: 1.9rem;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     #subToBlender li  {
         line-height: 1.9rem;
-        font-size: 1rem;
-        font-weight: 300;
+        font-size: 1.1rem;
+        font-weight: 200;
     }
     #subToBlender button  {
         padding: 2px 30px;
